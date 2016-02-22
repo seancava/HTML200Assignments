@@ -1,0 +1,27 @@
+html{
+	background-color: orangered;
+}
+nav a  { color: #331C12; 
+  text-decoration:none;
+  font-weight:bold;
+  font-size: .9em; padding: 5px 22px;
+  border-radius: 5px;  
+} 
+nav ul{
+	width:auto;
+	display:inline-block;
+	overflow: hidden;
+	border-left-width: .1em;
+	border-left-style: solid;
+	list-style:none;
+	text-align:center;
+	padding:0;	
+}
+nav ul li{	
+	display:inline-block;
+	/*float: left;
+	padding: .5em ;*/
+	border-right: .1em solid;
+	border-right-color:#2c2e21;
+	text-decoration:none;
+}
